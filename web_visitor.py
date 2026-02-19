@@ -4,7 +4,7 @@ import os
 import json
 from datetime import datetime
 from playwright.async_api import async_playwright
-from playwright_stealth import stealth_async
+from playwright_stealth import stealth
 
 # 1. kini 님의 전체 User-Agent 리스트 (패턴 분석 회피용)
 USER_AGENTS = [
